@@ -1,14 +1,5 @@
 void main() {
   var currentDay = DateTime.now().weekday;
-  var dayNames = [
-    'Monday',
-    'Tuesday',
-    'Wednesday',
-    'Thursday',
-    'Friday',
-    'Saturday',
-    'Sunday'
-  ];
 
   switch (currentDay) {
     case 1:
